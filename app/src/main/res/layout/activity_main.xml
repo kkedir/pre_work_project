@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_burgandy"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello From Korme!"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="italic"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+         />
+
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change text color!"
+        android:textColor="@color/cardview_dark_background"
+        android:background="#e6e6fa"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/changeBackgroundcolorButton"
+        android:layout_above="@id/button"
+        android:background="#e6e6fa"
+        android:text="Change background color"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/changeTextButton"
+        android:layout_above="@id/changeBackgroundcolorButton"
+        android:background="#e6e6fa"
+        android:text="Change Text"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Create your own text"
+        android:layout_above="@id/changeTextButton"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/changeCustomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editText"
+        android:background="#e6e6fa"
+        android:text="Change to your custom text"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+</RelativeLayout>
