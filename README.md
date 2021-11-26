@@ -5,8 +5,6 @@ Intro to android app pre-work project
 This android app let users to change text and backgroudn color. And also users' can type any kind text the want and the app will display their app instead of customed text.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
 <img src="walkthrough.gif" width=200><br>
 
 ### Required User Stories
